@@ -86,3 +86,12 @@ input:hover, textarea:hover {
 input:invalid, textarea:invalid {
     border-color: #ff5555;
 }
+
+/* 3rd change */ 
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
