@@ -76,3 +76,13 @@ button:focus {
     outline: 2px solid red;
     box-shadow: 0 0 8px red;
 }
+
+
+/* 2nd change */ 
+input:hover, textarea:hover {
+    border-color: blue;
+}
+
+input:invalid, textarea:invalid {
+    border-color: #ff5555;
+}
