@@ -95,3 +95,12 @@ button {
 button:hover {
     transform: scale(1.2);
 }
+
+/* 4th change */ 
+input#name {
+    text-transform: uppercase;
+}
+
+input#name::placeholder {
+    text-transform: none; /* Keeps placeholder unchanged */
+}
