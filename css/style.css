@@ -70,3 +70,9 @@ input:focus, textarea:focus, select:focus {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #777777;
 }
+
+/* 1st change */ 
+button:focus {
+    outline: 2px solid red;
+    box-shadow: 0 0 8px red;
+}
