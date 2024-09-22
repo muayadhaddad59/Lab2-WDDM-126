@@ -104,3 +104,9 @@ input#name {
 input#name::placeholder {
     text-transform: none; /* Keeps placeholder unchanged */
 }
+
+/* 5th change */ 
+input::placeholder, textarea::placeholder {
+    color: red; /* Adjust this color to contrast with the background */
+    opacity: 1; /* Ensures the placeholder is fully visible */
+}
